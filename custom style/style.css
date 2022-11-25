@@ -1,0 +1,89 @@
+.bg--ebony-clay {
+    background-color: #252b42;
+}
+
+.txt--ebony-clay {
+    color: #252b42;
+}
+
+.txt--dove-gray {
+    color: #737373;
+}
+
+.border--none {
+    border: none;
+}
+
+.text--style {
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    background-image: linear-gradient(
+            89.85deg,
+            #000000 0.13%,
+            #000000 0.14%,
+            rgba(0, 0, 0, 0) 99.56%
+        ),
+        url("/assets/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-container {
+    text-align: center;
+    padding: 84px 50px;
+}
+
+.background-container__secondary-cta {
+    background-color: transparent;
+    width: 157px;
+    border-radius: 37px;
+    padding: 10px 15px;
+}
+
+.background-container__primary-cta {
+    width: 187px;
+    border-radius: 37px;
+    border: none;
+    padding: 10px 15px;
+}
+
+.features__item {
+    padding: 40px 45.5px;
+    margin-bottom: 30px;
+}
+
+.testimonials {
+    background-color: #8ec2f2;
+    text-align: center;
+    padding: 75px 45px;
+}
+.testimonials__individual {
+    margin-top: 60px;
+}
+
+.testimonials__individual div {
+    padding: 30px 40px;
+    text-align: left;
+}
+
+.rating {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.culture {
+    text-align: center;
+    padding: 30px 40px;
+}
+
+.culture__cards {
+    margin-top: 60px;
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
