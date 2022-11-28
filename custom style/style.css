@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .bg--ebony-clay {
     background-color: #252b42;
 }
@@ -18,7 +23,7 @@
     font-family: "Montserrat", sans-serif;
 }
 
-header {
+.banner {
     background-image: linear-gradient(
             89.85deg,
             #000000 0.13%,
@@ -29,11 +34,24 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
-.background-container {
+.banner__overlay-content {
     text-align: center;
-    padding: 84px 50px;
+    padding-top: 100px;
+}
+@media screen and (min-width: 768px) {
+    header {
+        background: transparent !important;
+    }
+    .banner {
+        margin-top: -70px;
+    }
+    .banner__overlay-content {
+        text-align: left;
+        padding-top: 280px;
+    }
 }
 
 .background-container__secondary-cta {
@@ -50,15 +68,14 @@ header {
     padding: 10px 15px;
 }
 
-.features__item {
-    padding: 40px 45.5px;
-    margin-bottom: 30px;
+.features {
+    padding: 110px 46px;
 }
 
 .testimonials {
     background-color: #8ec2f2;
     text-align: center;
-    padding: 75px 45px;
+    padding: 75px;
 }
 .testimonials__individual {
     margin-top: 60px;
@@ -69,21 +86,108 @@ header {
     text-align: left;
 }
 
-.rating {
+.testimonial__rating {
     list-style: none;
     padding: 0;
     margin-top: 30px;
 }
 
-.culture {
+.industry {
     text-align: center;
-    padding: 30px 40px;
+    padding: 30px;
 }
 
-.culture__cards {
-    margin-top: 60px;
+.industry__header {
+    margin-bottom: 60px;
+}
+
+.industry img {
+    width: 100%;
+}
+
+.testimonials__details {
+    margin: 30px 40px;
+}
+
+.industry__contents {
+    position: absolute;
+    bottom: 0;
+}
+
+.industry__cta {
+    padding: 10px 36px;
+}
+
+.industry__contents h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+
+.pricing__header {
+    padding-top: 112px;
+}
+
+.pricing h2 {
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.pricing p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.pricing__list {
     list-style: none;
     padding: 0;
-    position: relative;
+    margin-top: 80px;
+    padding-bottom: 141px;
 }
 
+.pricing__list-items {
+    border-radius: 10px;
+    width: 33.33%;
+}
+
+.pricing__list-items h2 {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
+
+.pricing__list-items div {
+    margin: 50px 40px;
+}
+
+.pricing__list-items ins {
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+}
+
+.pricing__list-items-label {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #8ec2f2;
+}
+
+.pricing__services{
+    list-style: none;
+    padding: 0;
+    padding-bottom: 50px;
+    padding-top: 36px;
+}
+
+
+.pricing__plans-cta{
+    width: 300px;
+    padding: 15px 40px;
+}
