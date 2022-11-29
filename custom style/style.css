@@ -1,193 +1,270 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .bg--ebony-clay {
-    background-color: #252b42;
+  background-color: #252b42;
 }
 
 .txt--ebony-clay {
-    color: #252b42;
+  color: #252b42;
 }
 
 .txt--dove-gray {
-    color: #737373;
+  color: #737373;
 }
 
 .border--none {
-    border: none;
+  border: none;
 }
 
 .text--style {
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .banner {
-    background-image: linear-gradient(
-            89.85deg,
-            #000000 0.13%,
-            #000000 0.14%,
-            rgba(0, 0, 0, 0) 99.56%
-        ),
-        url("/assets/background.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
+  background-image: linear-gradient(
+      89.85deg,
+      #000000 0.13%,
+      #000000 0.14%,
+      rgba(0, 0, 0, 0) 99.56%
+    ),
+    url("/assets/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 .banner__overlay-content {
-    text-align: center;
-    padding-top: 100px;
+  text-align: center;
+  padding-top: 100px;
 }
 @media screen and (min-width: 768px) {
-    header {
-        background: transparent !important;
-    }
-    .banner {
-        margin-top: -70px;
-    }
-    .banner__overlay-content {
-        text-align: left;
-        padding-top: 280px;
-    }
+  header {
+    background: transparent !important;
+  }
+  .banner {
+    margin-top: -70px;
+  }
+  .banner__overlay-content {
+    text-align: left;
+    padding-top: 280px;
+  }
 }
 
 .background-container__secondary-cta {
-    background-color: transparent;
-    width: 157px;
-    border-radius: 37px;
-    padding: 10px 15px;
+  background-color: transparent;
+  width: 157px;
+  border-radius: 37px;
+  padding: 10px 15px;
 }
 
 .background-container__primary-cta {
-    width: 187px;
-    border-radius: 37px;
-    border: none;
-    padding: 10px 15px;
+  width: 187px;
+  border-radius: 37px;
+  border: none;
+  padding: 10px 15px;
 }
 
 .features {
-    padding: 110px 46px;
+  padding: 110px 46px;
 }
 
 .testimonials {
-    background-color: #8ec2f2;
-    text-align: center;
-    padding: 75px;
+  background-color: #8ec2f2;
+  text-align: center;
+  /* padding: 75px; */
+  padding-top: 112px;
 }
 .testimonials__individual {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .testimonials__individual div {
-    padding: 30px 40px;
-    text-align: left;
+  padding: 30px 40px;
+  text-align: left;
 }
 
 .testimonial__rating {
-    list-style: none;
-    padding: 0;
-    margin-top: 30px;
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
 }
 
 .industry {
-    text-align: center;
-    padding: 30px;
+  text-align: center;
+  padding: 30px;
 }
 
 .industry__header {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .industry img {
-    width: 100%;
+  width: 100%;
 }
 
 .testimonials__details {
-    margin: 30px 40px;
+  padding: 30px 40px;
 }
 
 .industry__contents {
-    position: absolute;
-    bottom: 0;
+  position: absolute;
+  bottom: 0;
 }
 
 .industry__cta {
-    padding: 10px 36px;
+  padding: 10px 36px;
 }
 
 .industry__contents h2 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.2px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
 }
 
 .pricing__header {
-    padding-top: 112px;
+  padding-top: 112px;
 }
 
 .pricing h2 {
-    font-size: 40px;
-    line-height: 57px;
-    letter-spacing: 0.2px;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
 }
 
 .pricing p {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    letter-spacing: 0.2px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
 }
 
 .pricing__list {
-    list-style: none;
-    padding: 0;
-    margin-top: 80px;
-    padding-bottom: 141px;
+  list-style: none;
+  margin-top: 106px;
 }
 
 .pricing__list-items {
-    border-radius: 10px;
-    width: 33.33%;
+  border-radius: 10px;
+  flex: 0 0 32%;
+  /* max-width: 320px !important; */
 }
 
 .pricing__list-items h2 {
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: 0.1px;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
 }
 
 .pricing__list-items div {
-    margin: 50px 40px;
+  margin: 50px 40px;
 }
 
 .pricing__list-items ins {
-    font-size: 40px;
-    line-height: 57px;
-    letter-spacing: 0.2px;
-    text-decoration: none;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  text-decoration: none;
 }
 
 .pricing__list-items-label {
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.1px;
-    color: #8ec2f2;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #8ec2f2;
 }
 
-.pricing__services{
+.pricing__services {
+  list-style: none;
+  padding: 0;
+  padding-bottom: 50px;
+  padding-top: 36px;
+}
+
+.pricing__plans-cta {
+  width: 300px;
+  padding: 15px 40px;
+}
+
+.contact {
+  background-image: linear-gradient(
+      89.83deg,
+      #ffffff 14.24%,
+      #ffffff 14.25%,
+      rgba(255, 255, 255, 0) 99.55%
+    ),
+    url("/assets/contact_background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.contact__header {
+  padding-top: 115px;
+}
+
+.contact__form {
+  margin-top: 40px;
+}
+
+input[type="text"] {
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  width: 280px;
+  padding: 8px;
+}
+
+.form__select {
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  width: 280px;
+  padding: 10px;
+}
+
+textarea {
+  background: #f9f9f9;
+  width: 280px;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.contact__form-cta {
+  width: 280px;
+  padding: 15px 40px;
+  border-radius: 5px;
+}
+
+.newsletter {
+  padding: 40px 80px;
+}
+
+.newsletter__cta {
+  width: 180px;
+  border-radius: 5px;
+  padding: 15px 40px;
+}
+
+footer {
+  padding-top: 80px;
+}
+
+.copyright-content {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.copyright ul{
     list-style: none;
     padding: 0;
-    padding-bottom: 50px;
-    padding-top: 36px;
 }
 
-
-.pricing__plans-cta{
-    width: 300px;
-    padding: 15px 40px;
-}
